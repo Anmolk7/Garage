@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Garage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="city">
+        <item>City</item>
+        <item>Kathmandu</item>
+    </string-array>
+    <string-array name="area">
+        <item>Area</item>
+        <item>Anamnagar</item>
+        <item>New Baneshwor</item>
+        <item>Old Baneshwor</item>
+        <item>Ghatekulo</item>
+        <item>Thapathali</item>
+        <item>Chabahil</item>
+        <item>Jorpati</item>
+    </string-array>
+
+</resources>

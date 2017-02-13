@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="price">
+        <item>Tire tube: Rs 500 </item>
+        <item>Tire inflate: Rs 10</item>
+        <item>Washing bike:RS 100</item>
+        <item>Washing car:RS 300</item>
+        <item>Mobil change:Rs 500/liter</item>
+        <item>Support stands:Rs 500</item>
+        <item>Car seat change:RS 2000</item>
+        <item>Washing bike:RS 100</item>
+        <item>Washing car:RS 300</item>
+        <item>Mobil change:Rs 500/liter</item>
+        <item>Support stands:Rs 500</item>
+        <item>Car seat change:RS 2000</item>
+        <item>Car seat change:RS 2000</item>
+        <item>Washing bike:RS 100</item>
+        <item>Washing car:RS 300</item>
+        <item>Mobil change:Rs 500/liter</item>
+        <item>Support stands:Rs 500</item>
+        <item>Car seat change:RS 2000</item>
+    </string-array>
+</resources>

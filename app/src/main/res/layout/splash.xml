@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="256dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/one"
+        android:cropToPadding="false"
+        android:layout_weight="0.39"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="268dp"
+        android:id="@+id/imageView1"
+        android:src="@drawable/two"
+        android:contextClickable="false"
+        android:layout_weight="0.91"
+        android:layout_marginTop="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="900dp"
+        android:layout_height="268dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/three"
+        android:contextClickable="false"
+        android:layout_weight="0.91"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="92dp"
+        android:layout_marginStart="92dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Garage"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:textSize="50dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginBottom="61dp"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:progress="100"
+        />
+</RelativeLayout>
